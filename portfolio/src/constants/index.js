@@ -11,9 +11,31 @@ export const ABOUT_TEXT = `Here's your updated portfolio description incorporati
 ---
 
 I am Wimukthi Pathum Wijerathne, a dedicated and versatile full-stack developer and a third-year undergraduate at the University of Ruhuna’s Faculty of Engineering, Department of Electrical and Information Engineering. With expertise in React, NestJS, Spring Boot, Node.js, and MongoDB, I am passionate about building efficient and user-friendly web applications. I am also experienced in machine learning, using libraries like Pandas, NumPy, and PyTorch to develop data-driven solutions. On the electronics side, I have proficiency in KiCad and Altium for designing and simulating circuits. My journey started with a curiosity for understanding how things work, and it has evolved into a commitment to learning and tackling complex challenges. I thrive in collaborative environments and enjoy solving problems to deliver high-quality results. Outside of coding, I stay active, explore new technologies, and contribute to open-source projects.`;
-
+export const EDUCATION = [{
+  year: "2016 ",
+    role: "GCE Odinary Level",
+    company: "Walisinghe harischandra Collage",
+    description: `Passed GCE O/L with 6A passes and 3B passes`,
+    
+},
+{
+  year: "2020 ",
+    role: "GCE Advanced Level(Physical Science Stream)",
+    company: "Walisinghe harischandra Collage",
+    description: `Passed GCE A/L with 2A passes and 1B passes.District Rank:27 and Island Rank:1368,Z-Score:1.8804`,
+    technologies: ["Mathematics:A", "Physics:B", "Chemistry:A"],
+},
+{year: "2021-present ",
+  role: "Electrical and Information Engineering Undergraduate",
+  company: "Department of Electrical and Information Engineering, Faculty of Engineering, University of Ruhuna",
+  description: `Currently pursuing a degree in Electrical and Information Engineering, focusing on software development, electronics.`,
+  
+}
+]
 export const EXPERIENCES = [
+  
   {
+
     year: "2023 ",
     role: "Intern Software Engineer",
     company: "NCINGA Pvt. Ltd.",
@@ -35,22 +57,16 @@ export const PROJECTS = [
     image: project2,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    technologies: [ "React", "Node.js", "MongoDB"],
   },
   {
-    title: "Portfolio Website",
+    title: "Real Estate Selling Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: [ "React", "Node.js", "MongoDB"],
   },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+  
 ];
 
 export const CONTACT = {

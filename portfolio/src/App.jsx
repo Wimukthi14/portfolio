@@ -7,6 +7,7 @@ import Education from './components/Education.jsx'
 import Hero from './components/Hero.jsx'
 import Navbar from './components/Navbar.jsx'
 import Projects from './components/Projects.jsx'
+import Qualifiactions from './components/Qualifiactions.jsx'
 import Technologies from './components/Technologies.jsx'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Navbar /> 
       <Hero />
       <About />
+      <Qualifiactions />
       <Technologies />
       <Education />
       <Projects />
