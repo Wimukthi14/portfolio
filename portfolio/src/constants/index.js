@@ -6,10 +6,7 @@ import project4 from "../assets/projects/project-4.jpg";
 export const HERO_CONTENT = `
 I am a third-year Electrical and Information Engineering undergraduate with a passion for both software and electronics. My experience as a software engineering intern has honed my skills in development and problem-solving. I am driven to contribute to projects that connect software and hardware, especially in automation, IoT, and embedded systems.`;
 
-export const ABOUT_TEXT = `Here's your updated portfolio description incorporating your expertise:
-
----
-
+export const ABOUT_TEXT = `
 I am Wimukthi Pathum Wijerathne, a dedicated and versatile full-stack developer and a third-year undergraduate at the University of Ruhuna’s Faculty of Engineering, Department of Electrical and Information Engineering. With expertise in React, NestJS, Spring Boot, Node.js, and MongoDB, I am passionate about building efficient and user-friendly web applications. I am also experienced in machine learning, using libraries like Pandas, NumPy, and PyTorch to develop data-driven solutions. On the electronics side, I have proficiency in KiCad and Altium for designing and simulating circuits. My journey started with a curiosity for understanding how things work, and it has evolved into a commitment to learning and tackling complex challenges. I thrive in collaborative environments and enjoy solving problems to deliver high-quality results. Outside of coding, I stay active, explore new technologies, and contribute to open-source projects.`;
 export const EDUCATION = [{
   year: "2016 ",
