@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../assets/kevinRushLogo.png';
-import { FaLinkedin, FaGithub, FaTwitterSquare, FaInstagram } from 'react-icons/fa';
+
 
 export default function Navbar() {
   return (
@@ -9,10 +9,12 @@ export default function Navbar() {
         {/* <img className='mx-2 w-10' src={logo} alt="logo"  /> */}
       </div>
       <div className='m-8 flex items-center justify-center gap-4' >
-        <FaLinkedin />
-        <FaGithub />
-        <FaTwitterSquare />
-        <FaInstagram />
+        <ul className='flex flex-wrap gap-5 hover:cursor-pointer bg-gradient-to-r from-pink-300 via-slate-500
+            to-purple-500 bg-clip-text text-xl tracking-tight text-transparent '>
+          <li className='hover:underline'>Home</li>
+          <li className='hover:underline'>About Me</li>
+          <li className='hover:underline'>Contact Me</li>
+        </ul>
       </div>
     </nav>
   );

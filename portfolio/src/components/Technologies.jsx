@@ -116,15 +116,15 @@ export default function Technologies() {
           <img src={python} className='h-20 w-20' alt='Python' />
         </motion.div>
         <motion.div
-          variants={iconVariants(5)}
+          variants={iconVariants(3.5)}
           initial='initial'
           animate='animate'
           className='rounded-2xl border-4 border-neutral-800 p-4'
         >
-          <img src={numpy} className='h-20 w-24' alt='NumPy' />
+          <img src={numpy} className='h-20 w-28' alt='NumPy' />
         </motion.div>
         <motion.div
-          variants={iconVariants(5)}
+          variants={iconVariants(2)}
           initial='initial'
           animate='animate'
           className='rounded-2xl border-4 border-neutral-800 p-4'
